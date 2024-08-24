@@ -26,6 +26,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     && /opt/netbox/venv/bin/python3 -m pip install --upgrade \
       pip \
       setuptools \
+      nano \
       wheel
 
 ARG NETBOX_PATH
